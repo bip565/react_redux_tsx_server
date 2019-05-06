@@ -4983,7 +4983,6 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const React = __webpack_require__(0);
 const react_router_1 = __webpack_require__(14);
 const style = __webpack_require__(72);
-console.log(style);
 exports.Header = () => React.createElement("nav", { className: style.Nav }, React.createElement("ul", null, React.createElement("li", null, React.createElement(react_router_1.Link, { to: "/" }, "Home")), React.createElement("li", null, React.createElement(react_router_1.Link, { to: "about" }, "About")), React.createElement("li", null, React.createElement(react_router_1.Link, { to: "counter" }, "Counter")), React.createElement("li", null, React.createElement(react_router_1.Link, { to: "stars" }, "Stars"))));
 
 /***/ }),
