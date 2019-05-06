@@ -61,7 +61,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "58cecb33cc73d17c926a"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "9cb3cdabd75cc8c0ce4b"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -9592,7 +9592,7 @@ var HELMET_ATTRIBUTE = exports.HELMET_ATTRIBUTE = "data-react-helmet";
 /***/ }),
 /* 161 */
 /*!****************************************************************************************************!*\
-  !*** multi webpack-hot-middleware/client?reload=true ./src/client/client.tsx ./src/vendor/main.ts ***!
+  !*** multi webpack-hot-middleware/client?reload=true ./src/client/client.tsx ./src/shared/main.ts ***!
   \****************************************************************************************************/
 /*! dynamic exports provided */
 /*! all exports used */
@@ -9600,7 +9600,7 @@ var HELMET_ATTRIBUTE = exports.HELMET_ATTRIBUTE = "data-react-helmet";
 
 __webpack_require__(/*! webpack-hot-middleware/client?reload=true */162);
 __webpack_require__(/*! ./src/client/client.tsx */174);
-module.exports = __webpack_require__(/*! ./src/vendor/main.ts */387);
+module.exports = __webpack_require__(/*! ./src/shared/main.ts */387);
 
 
 /***/ }),
@@ -45335,7 +45335,7 @@ if(true) {
 /***/ }),
 /* 387 */
 /*!****************************!*\
-  !*** ./src/vendor/main.ts ***!
+  !*** ./src/shared/main.ts ***!
   \****************************/
 /*! dynamic exports provided */
 /*! all exports used */
@@ -45348,7 +45348,7 @@ if(true) {
  * If you try using bootstrap 4, see: https://github.com/shakacode/bootstrap-loader/issues/244
  */
 
- ;(function register() { /* react-hot-loader/webpack */ if (true) { if (typeof __REACT_HOT_LOADER__ === 'undefined') { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : module.exports; /* eslint-enable camelcase, no-undef */ if (typeof webpackExports === 'function') { __REACT_HOT_LOADER__.register(webpackExports, 'module.exports', "/home/appsbee/newprojects/src/vendor/main.ts"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } __REACT_HOT_LOADER__.register(namedExport, key, "/home/appsbee/newprojects/src/vendor/main.ts"); } } })();
+ ;(function register() { /* react-hot-loader/webpack */ if (true) { if (typeof __REACT_HOT_LOADER__ === 'undefined') { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : module.exports; /* eslint-enable camelcase, no-undef */ if (typeof webpackExports === 'function') { __REACT_HOT_LOADER__.register(webpackExports, 'module.exports', "/home/appsbee/newprojects/src/shared/main.ts"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } __REACT_HOT_LOADER__.register(namedExport, key, "/home/appsbee/newprojects/src/shared/main.ts"); } } })();
 
 /***/ })
 /******/ ]);
